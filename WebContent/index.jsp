@@ -13,7 +13,7 @@
 	OWLOntologyManager man = OWLManager.createOWLOntologyManager();
 	OWLOntology ont = null;
 	try {
-		String webOntFile = "http://sourceforge.net/p/n8eo/code/49/tree/ontology/N8EO.owl?format=raw";
+		String webOntFile = "https://github.com/rsgoncalves/n8eo-browser/blob/master/ontology/N8EO.owl";
 		ont = man.loadOntologyFromOntologyDocument(IRI.create(webOntFile));
 	} catch (OWLOntologyCreationException e) {
 		e.printStackTrace();
