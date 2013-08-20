@@ -1,0 +1,145 @@
+/*
+Created by Rafael Goncalves
+Information Management Group (IMG)
+School of Computer Science
+University of Manchester
+Last updated: 30-Apr-2013
+*/
+
+html {
+	font-size: 100%;
+}
+
+body {
+	line-height: 1.6em;
+/* 	background: #fff url(../images/body_bg.png) fixed; */
+	background-color: #F3F3F3;
+	background-image: linear-gradient(bottom,rgb(224,224,224) 0%,rgb(243,243,243) 67%,rgb(243,243,243) 100%);
+	background-image: -o-linear-gradient(bottom,rgb(224,224,224) 0%,rgb(243,243,243) 67%,rgb(243,243,243) 100%);
+	background-image: -moz-linear-gradient(bottom,rgb(224,224,224) 0%,rgb(243,243,243) 67%,rgb(243,243,243) 100%);
+	background-image: -webkit-linear-gradient(bottom,rgb(224,224,224) 0%,rgb(243,243,243) 67%,rgb(243,243,243) 100%);
+	background-image: -ms-linear-gradient(bottom,rgb(224,224,224) 0%,rgb(243,243,243) 67%,rgb(243,243,243) 100%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0,rgb(224,224,224)),color-stop(0.67,rgb(243,243,243)),color-stop(1,rgb(243,243,243)));
+	font-size: 12px;
+    font-family: Verdana, Helvetica, Arial, sans-serif; 
+    color: #2b2b2b;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 15px 20px;
+	margin: auto;
+	position: relative;
+}
+
+#content {  
+    width: 1100px;  
+    display: inline;  
+    white-space: nowrap;    
+    overflow: auto;
+	padding: 15px 20px;
+	margin: auto;
+	position: relative;
+	clear: both;
+}
+
+#site_title {
+	float: right;
+	width: 125px; 
+	height: 51px;
+	position: absolute; 
+	top: -42px; 
+	right: 5px;
+}
+
+div.details {
+	background-color: #feffff;
+	width: 730px;
+	height: 300px;
+	border-style: ridge;
+	border-width: 2px;
+	display: inline-block;
+	overflow: scroll;
+	vertical-align: middle;
+	text-align: left;
+    white-space: normal;    
+}
+
+div.dimension {
+	background-color: #feffff;
+	width: 362px;
+	height: 300px;
+	border-style: ridge;
+	border-width: 2px;
+	display: inline-block;
+	overflow: scroll;
+	vertical-align: middle;
+	text-align: left;
+	position: relative;
+}
+
+div.search {
+	width: 366px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	position: relative;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 15px;
+}
+
+div.buttons {
+	width: 366px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle; 
+	text-align: left;
+	font-size: 12px;
+}
+
+#logo {
+	position: fixed; 
+	top: 45px; 
+	overflow: hidden;
+	left: 850px;
+}
+
+ul {
+	padding: 2px;
+	margin: 2px 2px 2px 18px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	font-size: 12px;
+    font-family: Verdana, Helvetica, Arial, sans-serif; 
+    color: #2b2b2b;
+	text-decoration: none;
+}
+
+a.concept {}
+
+a.instance {}
+
+a.grey {
+	text-decoration: line-through;
+	color: #a3a3a3;
+}
+
+a.regular {
+	text-decoration: underline;
+}
+
+a.small {
+	text-decoration: underline;
+	font-size: x-small;
+}
+
+a.menu {
+	color: #2997AB; 
+	text-decoration: none;
+}
